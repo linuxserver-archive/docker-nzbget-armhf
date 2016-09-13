@@ -11,7 +11,7 @@ The [LinuxServer.io][linuxserverurl] team brings you another container release f
 * [Podcast][podcasturl] covers everything to do with getting the most from your Linux Server plus a focus on all things Docker and containerisation!
 
 # lsioarmhf/NZBGet
-[![](https://images.microbadger.com/badges/image/lsioarmhf/nzbget.svg)](http://microbadger.com/images/lsioarmhf/nzbget "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/lsioarmhf/nzbget.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/lsioarmhf/nzbget.svg)][hub][![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io/lsioarmhf-nzbget)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io/job/lsioarmhf-nzbget/)
+[![](https://images.microbadger.com/badges/image/lsioarmhf/nzbget.svg)](http://microbadger.com/images/lsioarmhf/nzbget "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/lsioarmhf/nzbget.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/lsioarmhf/nzbget.svg)][hub][![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io-armhf/lsioarmhf-nzbget)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io-armhf/job/lsioarmhf-nzbget/)
 [hub]: https://hub.docker.com/r/lsioarmhf/nzbget/
 
 [NZBGet](http://nzbget.net/) is a usenet downloader, written in C++ and designed with performance in mind to achieve maximum download speed by using very little system resources.
