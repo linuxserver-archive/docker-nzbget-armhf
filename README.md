@@ -70,4 +70,5 @@ To allow scheduling, from the webui set the time correction value in settings/lo
 
 ## Versions
 
++ **30.09.16:** Fix umask.
 + **13.09.16:** Initial Release.
