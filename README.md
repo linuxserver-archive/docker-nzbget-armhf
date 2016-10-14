@@ -10,8 +10,8 @@ The [LinuxServer.io][linuxserverurl] team brings you another container release f
 * [IRC][ircurl] on freenode at `#linuxserver.io`
 * [Podcast][podcasturl] covers everything to do with getting the most from your Linux Server plus a focus on all things Docker and containerisation!
 
-# lsioarmhf/NZBGet
-[![](https://images.microbadger.com/badges/image/lsioarmhf/nzbget.svg)](http://microbadger.com/images/lsioarmhf/nzbget "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/lsioarmhf/nzbget.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/lsioarmhf/nzbget.svg)][hub][![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io-armhf/lsioarmhf-nzbget)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io-armhf/job/lsioarmhf-nzbget/)
+# lsioarmhf/nzbget
+[![](https://images.microbadger.com/badges/version/lsioarmhf/nzbget.svg)](https://microbadger.com/images/lsioarmhf/nzbget "Get your own version badge on microbadger.com")[![](https://images.microbadger.com/badges/image/lsioarmhf/nzbget.svg)](http://microbadger.com/images/lsioarmhf/nzbget "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/lsioarmhf/nzbget.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/lsioarmhf/nzbget.svg)][hub][![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io-armhf/lsioarmhf-nzbget)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io-armhf/job/lsioarmhf-nzbget/)
 [hub]: https://hub.docker.com/r/lsioarmhf/nzbget/
 
 [NZBGet](http://nzbget.net/) is a usenet downloader, written in C++ and designed with performance in mind to achieve maximum download speed by using very little system resources.
@@ -76,7 +76,17 @@ scroll to bottom, set umask like this (example shown for unraid)
 * Shell access whilst the container is running: `docker exec -it nzbget /bin/bash`
 * To monitor the logs of the container in realtime: `docker logs -f nzbget`
 
+
+* container version number 
+
+`docker inspect -f '{{ index .Config.Labels "build_version" }}' nzbget`
+
+* image version number
+
+`docker inspect -f '{{ index .Config.Labels "build_version" }}' lsioarmhf/nzbget`
+
 ## Versions
 
++ **14-10-16:** Add version layer information.
 + **30.09.16:** Fix umask.
 + **13.09.16:** Initial Release.
