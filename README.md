@@ -93,6 +93,6 @@ scroll to bottom, set umask like this (example shown for unraid)
 
 ## Versions
 
-+ **14-10-16:** Add version layer information.
++ **14.10.16:** Add version layer information.
 + **30.09.16:** Fix umask.
 + **13.09.16:** Initial Release.
