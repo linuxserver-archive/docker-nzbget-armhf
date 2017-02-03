@@ -1,4 +1,4 @@
-FROM lsiobase/alpine.armhf
+FROM lsiobase/alpine.armhf:3.5
 MAINTAINER sparklyballs
 
 # set version label
@@ -15,7 +15,7 @@ RUN \
  apk add --no-cache \
 	curl \
 	p7zip \
-	python \
+	python2 \
 	unrar \
 	wget
 
@@ -40,3 +40,4 @@ COPY root/ /
 # ports and volumes
 VOLUME /config /downloads
 EXPOSE 6789
+
