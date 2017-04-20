@@ -34,6 +34,13 @@ docker create \
 
 This container is based on alpine linux with s6 overlay. For shell access whilst the container is running do `docker exec -it nzbget /bin/bash`.
 
+You can choose between ,using tags, various branch versions of nzbget, no tag is required to remain on the main branch.
+
+Add one of the tags,  if required,  to the linuxserver/nzbget line of the run/create command in the following format, linuxserver/nzbget:testing
+
+#### Tags
++ **testing**
+
 ## Parameters
 
 `The parameters are split into two halves, separated by a colon, the left hand side representing the host and the right the container side. 
@@ -93,6 +100,7 @@ scroll to bottom, set umask like this (example shown for unraid)
 
 ## Versions
 
++ **20.04.17:** Add testing branch.
 + **03.02.17:** Rebase alpine linux 3.5.
 + **14.10.16:** Add version layer information.
 + **30.09.16:** Fix umask.
