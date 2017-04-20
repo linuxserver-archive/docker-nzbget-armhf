@@ -17,10 +17,9 @@ RUN \
 	p7zip \
 	python2 \
 	unrar \
-	wget
+	wget && \
 
 # install nzbget
-RUN \
  curl -o \
  /tmp/json -L \
 	http://nzbget.net/info/nzbget-version-linux.json && \
@@ -40,4 +39,3 @@ COPY root/ /
 # ports and volumes
 VOLUME /config /downloads
 EXPOSE 6789
-
