@@ -100,6 +100,7 @@ scroll to bottom, set umask like this (example shown for unraid)
 
 ## Versions
 
++ **02.09.17:** Place app in subfolder rather than /app.
 + **29.05.17:** Rebase alpine linux 3.6.
 + **20.04.17:** Add testing branch.
 + **03.02.17:** Rebase alpine linux 3.5.
