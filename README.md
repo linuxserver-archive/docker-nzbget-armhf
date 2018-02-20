@@ -85,6 +85,12 @@ scroll to bottom, set umask like this (example shown for unraid)
 
 ![](http://i.imgur.com/mIqDEJJ.png)
 
+You can add an additional mount point for intermediate unpacking folder with:-
+
+`-v </path/to/intermedia_unpacking_folder>:/intermediate`
+
+for example, and changing the setting for InterDir in the PATHS tab of settings to `/intermediate` 
+
 ## Info
 * Shell access whilst the container is running: `docker exec -it nzbget /bin/bash`
 * To monitor the logs of the container in realtime: `docker logs -f nzbget`
@@ -100,6 +106,7 @@ scroll to bottom, set umask like this (example shown for unraid)
 
 ## Versions
 
++ **20.02.18:** Add note about supplemental mount point for intermediate unpacking.
 + **24.01.18:** Rebase alpine linux 3.7.
 + **02.09.17:** Place app in subfolder rather than /app.
 + **29.05.17:** Rebase alpine linux 3.6.
