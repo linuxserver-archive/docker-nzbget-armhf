@@ -106,6 +106,7 @@ for example, and changing the setting for InterDir in the PATHS tab of settings 
 
 ## Versions
 
++ **21.08.18:** Rebase alpine linux 3.8.
 + **20.02.18:** Add note about supplemental mount point for intermediate unpacking.
 + **24.01.18:** Rebase alpine linux 3.7.
 + **02.09.17:** Place app in subfolder rather than /app.
